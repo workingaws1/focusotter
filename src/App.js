@@ -6,6 +6,7 @@ import config from './aws-exports';
 import { Button, withAuthenticator } from '@aws-amplify/ui-react';
 import { useEffect, useState } from 'react';
 import { API } from 'aws-amplify';
+import { Navbar } from './components/Navbar';
 
 // Amplify.configure(config);
 
@@ -37,6 +38,9 @@ const App = ({signOut}) => {
 
   return (
     <div>
+      <div classname= 'navbar'>
+        <Navbar />
+      </div>
       happy coding!
     <form onSubmit={handleSubmit}>
       <input value={petName} placeholder="fiddo" onChange={(e) => setPetName(e.target.value)}/>

@@ -1,0 +1,45 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-focusotter-dev-142319-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506067890747:role/amplify-focusotter-dev-142319-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506067890747:role/amplify-focusotter-dev-142319-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-focusotter-dev-142319-deployment",
+      "UnauthRoleName": "amplify-focusotter-dev-142319-unauthRole",
+      "StackName": "amplify-focusotter-dev-142319",
+      "StackId": "arn:aws:cloudformation:us-east-1:506067890747:stack/amplify-focusotter-dev-142319/ee2d6ae0-8164-11ed-9bfd-0a389b06e125",
+      "AmplifyAppId": "d2b5vgtoxigvod",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-focusotter-dev-142319-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "focusotter90f3fee6": {}
+      },
+      "function": {
+        "petsfunction": {
+          "deploymentBucketName": "amplify-focusotter-dev-142319-deployment",
+          "s3Key": "amplify-builds/petsfunction-6644434b656f38354778-build.zip"
+        },
+        "celebfunction": {
+          "deploymentBucketName": "amplify-focusotter-dev-142319-deployment",
+          "s3Key": "amplify-builds/celebfunction-54667a35647678426871-build.zip"
+        }
+      },
+      "storage": {
+        "pets": {},
+        "celebs": {}
+      },
+      "api": {
+        "petsname": {},
+        "celebrityname": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2b5vgtoxigvod",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}

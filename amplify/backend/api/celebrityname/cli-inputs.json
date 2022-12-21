@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/celebs": {
+      "name": "/celebs",
+      "lambdaFunction": "celebfunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

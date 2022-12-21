@@ -1,0 +1,10 @@
+{
+  "resourceName": "celebs",
+  "tableName": "celebs",
+  "partitionKey": {
+    "fieldName": "name",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

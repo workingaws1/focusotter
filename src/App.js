@@ -46,7 +46,7 @@ const App = ({signOut}) => {
     <ul>
       {pets.map(pet => <li> {pet.name}</li>)}
     </ul>
-    <Button onClick={signOut}>Sign Out</Button>
+    <Button onClick={signOut}>Sign Out!!</Button>
     </div>
   );
 }
